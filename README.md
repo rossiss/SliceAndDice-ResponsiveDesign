@@ -1,4 +1,5 @@
-SliceAndDice-ResponsiveDesign
+Telerik Academy
+Slice And Dice Course
 =============================
 
 Homework Responsive Design
