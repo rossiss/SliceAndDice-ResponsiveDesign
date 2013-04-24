@@ -1,0 +1,265 @@
+﻿/* Smartphones and small tablets ----------- */
+/* Homework: For resolutions 320px, 480px*/
+@media only screen and (max-width: 639px) {
+    body #wrapper {
+        width: 98%;
+    }
+
+        body #wrapper header {
+            padding-bottom: 0;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        body #wrapper > header h1 {
+            text-align: center;
+            margin-top: 140px;
+            font-size: 1.9em;
+        }
+
+        body #wrapper header h1 img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        body #wrapper > header nav {
+            margin: 0 auto;
+            float: none;
+            clear: both;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+            body #wrapper > header nav ul {
+                list-style-type: none;
+            }
+
+                body #wrapper > header nav ul li {
+                    display: block;
+                    position: static;
+                    width: 80%;
+                    margin: 3px auto;
+                    text-align: center;
+                    font-size: 1.2em;
+                    background: #cccccc;
+                    border: none;
+                }
+
+                    body #wrapper > header nav ul li:hover ul {
+                        display: none;
+                    }
+
+                    body #wrapper > header nav ul li ul {
+                        display: none;
+                    }
+
+        body #wrapper > aside {
+            float: none;
+            display: inline;
+        }
+
+            body #wrapper > aside div {
+                width: 100%;
+                padding: 0;
+            }
+
+                body #wrapper > aside div.news {
+                    display: none;
+                }
+
+                body #wrapper > aside div ul {
+                    text-align: right;
+                    display: block;
+                }
+
+                    body #wrapper > aside div ul li {
+                        display: inline;
+                        padding: 0 1%;
+                    }
+
+                        body #wrapper > aside div ul li a span {
+                            display: none;
+                        }
+
+                        body #wrapper > aside div ul li a img {
+                            width: 80%;
+                        }
+
+        body #wrapper > section {
+            width: 100%;
+        }
+
+            body #wrapper > section article header h1 {
+                font-size: 1.2em;
+            }
+
+        body #wrapper > footer {
+            font-size: 0.8em;
+            height: 40px;
+        }
+}
+
+/* Tablets ------------ */
+/* Homework: For resolutions 640px, 780px*/
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+    body #wrapper {
+        width: 98%;
+    }
+
+        body #wrapper header {
+            padding-bottom: 0;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        body #wrapper > header h1 {
+            text-align: center;
+            margin-top: 90px;
+            font-size: 2.2em;
+        }
+
+        body #wrapper > header nav {
+            margin: 0;
+            float: none;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #cccccc;
+        }
+
+            body #wrapper > header nav ul {
+                list-style-type: none;
+            }
+
+                body #wrapper > header nav ul li {
+                    display: inline-block;
+                    width: 23%;
+                    margin: 0 auto;
+                    text-align: center;
+                    font-size: 1.4em;
+                    border: none;
+                    background: #cccccc;
+                }
+
+                    body #wrapper > header nav ul li > ul {
+                        display: block;
+                        position: absolute;
+                        left: -100%;
+                        border: none;
+                    }
+
+                    body #wrapper > header nav ul li:nth-of-type(3) > ul {
+                        left: 0;
+                        width: 215%;
+                    }
+
+                    body #wrapper > header nav ul li > ul li {
+                        display: table-cell;
+                        border: none;
+                        font-size: 0.7em;
+                        text-align: center;
+                        border: 2px solid white;
+                        border-top: none;
+                    }
+
+                    body #wrapper > header nav ul li > ul:last-of-type li {
+                        border-radius: 0 0 10px 10px;
+                        border: 2px solid white;
+                        border-top: none;
+                    }
+
+        body #wrapper > aside {
+            float: none;
+            display: inline;
+        }
+
+            body #wrapper > aside div {
+                width: 100%;
+                padding: 0;
+            }
+
+                body #wrapper > aside div.news {
+                    display: none;
+                }
+
+                body #wrapper > aside div ul {
+                    text-align: right;
+                    display: block;
+                }
+
+                    body #wrapper > aside div ul li {
+                        display: inline;
+                        padding: 0 1%;
+                    }
+
+                        body #wrapper > aside div ul li a span {
+                            display: none;
+                        }
+
+                        body #wrapper > aside div ul li a img {
+                            width: 100%;
+                        }
+
+        body #wrapper > section {
+            width: 100%;
+        }
+
+            body #wrapper > section article header h1 {
+                font-size: 1.4em;
+            }
+
+        body #wrapper > footer {
+            height: 25px;
+        }
+}
+
+/* Desktops, laptops, and landscape tablets ----------- */
+/* Homework: For resolution 960, 1024px*/
+@media only screen and (min-width: 960px) and (max-width: 1599px) {
+    body #wrapper {
+        width: 96%;
+    }
+
+        body #wrapper > header h1 {
+            text-align: left;
+        }
+
+        body #wrapper > aside {
+            width: 19%;
+        }
+
+        body #wrapper > section {
+            width: 79%;
+        }
+}
+
+/* Large screens ----------- */
+/* Homework: For resolution 1600px*/
+@media only screen and (min-width: 1600px) {
+    body #wrapper {
+        width: 96%;
+        font-size: 1.1em;
+    }
+
+        body #wrapper > header h1 {
+            font-size: 2.6em;
+            text-align: left;
+        }
+
+        body #wrapper > header nav ul li {
+            font-size: 1.4em;
+        }
+
+        body #wrapper > header h1 a img {
+            height: 130px;
+        }
+
+        body #wrapper > aside {
+            width: 22%;
+        }
+
+        body #wrapper > section {
+            width: 77%;
+        }
+}

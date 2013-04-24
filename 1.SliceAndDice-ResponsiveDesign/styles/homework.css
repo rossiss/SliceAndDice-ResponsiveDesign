@@ -1,0 +1,69 @@
+﻿@media only screen and (max-width: 480px) {
+    body #wrapper {
+	width: 100%;
+    }
+
+        body #wrapper > header {
+		    padding: 1%;
+            border-bottom: none;
+	    }
+
+		    body #wrapper > header h1 {
+                text-align: center;          
+			    margin: 0 auto 3% auto;
+		    }
+
+			    body #wrapper > header h1 a {
+				    text-decoration: none;
+				    color: #999;
+			    }
+
+        body #wrapper > header nav {
+			margin: 0 auto;
+            display: block;	
+            position: static;		
+            width: 98%;
+            float: none;
+		}
+
+			body #wrapper > header nav ul li {
+                display: block;
+                text-align: center;
+                margin: 1% auto;
+			}
+
+                body #wrapper > header nav ul li a {
+					font-size: 1.1em;
+				}
+
+        body #wrapper > section {
+		    width: 100%;
+            margin: 0 auto;      
+	    }
+
+		    body #wrapper > section header .slider {
+			    display: none;
+		    }
+
+        body #wrapper > section article {
+			margin: 0 auto 5% auto;
+	        width: 100%; 
+            border:none;
+            border-radius: 0;
+            border-bottom: 1px solid black;
+		}
+
+			body #wrapper > section article header {
+                text-align: center;
+                font-size: 1.8em;
+			}
+
+			body #wrapper > section article .article-content p {
+				padding: 1% 4%;
+			}
+
+    body #wrapper > footer {
+		border: none;
+		height: 5%;
+	}
+}
